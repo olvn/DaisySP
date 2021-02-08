@@ -1,20 +1,31 @@
 TARGET = libdaisysp
 
 MODULE_DIR = modules
+VPATH = \
+modules/Control \
+modules/Drums \
+modules/Dynamics \
+modules/Effects \
+modules/Filters \
+modules/Noise \
+modules/PhysicalModeling \
+modules/Synthesis \
+modules/Utility \
+
 MODULES = \
 adenv \
-adsr  \
+adsr \
 allpass \
 analogbassdrum \
 analogsnaredrum \
-autowah \
 atone \
+autowah \
 balance \
 biquad \
 blosc \
+comb \
 bitcrush \
 clockednoise \
-comb \
 compressor \
 crossfade \
 dcblock \
@@ -26,20 +37,20 @@ formantosc \
 grainlet \
 hihat \
 jitter \
-line \
 limiter \
-moogladder \
-nlfilt \
+line \
 metro \
 modalvoice \
 mode \
+moogladder \
+nlfilt \
 oscillator \
 oscillatorbank \
 overdrive \
 particle \
 phasor \
-pluck \
 port \
+pluck \
 resonator \
 reverbsc \
 sampleratereducer \
